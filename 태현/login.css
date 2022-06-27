@@ -1,0 +1,114 @@
+  html {
+    font-size: 16px;
+    letter-spacing: -.04em;
+    color: #212529;
+  }
+  
+  body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image:url('background1.jpg');
+    background-size: cover;
+  }
+
+  div {
+    background-color: rgba(255,255,255,0.6);
+  }
+
+  
+  
+  h1 {
+    justify-content: center;
+    width: 250px;
+    font-weight: bold;
+    font-size: 35px;
+    margin:auto;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 0.9em;
+    color: #101010;
+    letter-spacing: -.05em;
+    font-family: 'Asap', sans-serif;
+  }
+
+  .H1 {
+    text-decoration: none;
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  
+  input {
+    display: block;
+    width: 280px;
+    height: 44px;
+    padding: 0 12px;
+    border-radius: 7px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border: 1px solid #d3dce6;
+    transition: border-color 200ms ease-in-out;
+  }
+
+  button {
+    color:white;
+    border-radius: 7px;
+    border: 1px solid #d3dce6;
+    background-color: #045FB4;
+    transition: border-color 200ms ease-in-out;
+  }
+
+  article {
+    text-align: center;
+  }
+
+  a {
+    line-height: 40px;
+  }
+
+  a:link {
+    color: gray;
+  }
+
+  a:visited {
+    color: gray;
+  }
+
+  a:hover {
+    color:blue;
+  }
+
+  .login {
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 25px;
+    width:305px;
+    height:40px;
+  }
+
+  
+  input:focus,
+  input:hover,
+  input:active
+      {
+    outline: none;
+    box-shadow: none;
+    border-color: #1fb6ff;
+  }
+
+  button:hover
+  {
+    outline: none;
+    box-shadow: none;
+    border-color: black;
+  }
+  
